@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto"
+}
+
+nav li{ display: inline;
+    margin: 30px;
+}
+
+nav h1{
+    display: inline;
+    margin: 0%;
+}
+
+nav ul{background-color: black;
+  margin: 0px;
+  list-style-type: none;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+  
+nav{ display: block;
+  color: black;
+  font-size: medium;
+  align-items: baseline;
+}
+  
+nav a{
+    color: white;
+    font-family: "Roboto-Thin";
+    text-decoration: none;
+    border-style: initial;
+    border-color: rgb(238, 239, 240);
+    padding: 0px;
+}
+
+nav li a:hover{
+    background-color: lightseagreen;
+}
+
+.hero-image {
+    background-image: url("../images/theater-image-background.png");
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+} 
+
+h2{
+    text-indent: 2em;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 0%;
+    border-width: 1px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:rgb(251, 246, 246);
+}
+
+.main-articles{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  img {
+    max-width: 30%;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 8px;
+    padding-left: 0px;
+    display: inline;
+  }
+
+hr{
+    margin-left: 300px;
+    margin-right: 300px;
+}  
+
+.flexbox-container{
+    background-color: black;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text{
+    color: white;
+    display:inline-block;
+}
+
+.footer-text2{
+    color: white;
+    display:inline-block;
+}
+
+.footer-text3{
+    color: white;
+    display:inline-block;
+}
+
+#footer-image {
+    margin-left: 60px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+
+
+
+    
+
